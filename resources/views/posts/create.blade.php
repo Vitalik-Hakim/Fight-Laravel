@@ -30,7 +30,6 @@
     </span>
     @enderror
     </div>
-
     <div class="row pt-3">
         <button class="btn btn-primary">Post</button>
     </div>

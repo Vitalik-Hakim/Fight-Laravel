@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/hotlist', [App\Http\Controllers\HotController::class, 'hotlist']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
 Route::get('/p/create', [App\Http\Controllers\PostsController::class, 'create']);
 Route::post('/p', [App\Http\Controllers\PostsController::class, 'store']);

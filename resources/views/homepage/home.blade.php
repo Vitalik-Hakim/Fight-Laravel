@@ -35,7 +35,9 @@
                     @endauth
                 </div>
             @endif
-
+            <div class="row pt-3">
+            <a href="{{ url('p/create')}}"class="btn btn-primary">Posted</a>
+            </div>
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
 
                 </div>
@@ -63,7 +65,6 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Lorem Ipsum
                                 </div>
                             </div>
                         </div>
